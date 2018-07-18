@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <display-name>Huster Servlet</display-name>
+    <!--除了在这里配置基本定向信息以外，还可以在类名前面使用@WebServlet注解-->
+    <!--<servlet>
+        <servlet-name>firstDemo</servlet-name>
+        <servlet-class>Demo</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>firstDemo</servlet-name>
+        <url-pattern>/greeting</url-pattern>
+    </servlet-mapping>-->
+    <context-param>
+        <param-name>param_one</param-name>
+        <param-value>Param_one</param-value>
+    </context-param>
+    <context-param>
+        <param-name>param_two</param-name>
+        <param-value>Param_two</param-value>
+    </context-param>
+</web-app>
